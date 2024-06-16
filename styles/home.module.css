@@ -1,0 +1,28 @@
+.homeContainer {
+  @apply w-4/12 mx-auto p-6 border border-zinc-700	 rounded mt-40 text-white flex flex-col items-center ;
+
+  h1 {
+    @apply text-xl text-center mb-8;
+  }
+
+  /* button {
+    @apply bg-buttonPrimary py-2 px-2 rounded;
+  } */
+
+  .enterRoom {
+    @apply flex flex-col items-center mt-3 w-full mb-8;
+
+   input {
+  @apply text-black text-lg p-1 rounded-full w-9/12 mb-8; /* Use 'rounded-full' for fully rounded edges */
+}
+
+  }
+  input::placeholder {
+    @apply text-center; /* Center the placeholder text */
+  }
+  .separatorText {
+    @apply my-3 text-xl ;
+  }
+}
+
+
